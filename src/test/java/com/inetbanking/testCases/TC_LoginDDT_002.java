@@ -39,7 +39,7 @@ public class TC_LoginDDT_002 extends BaseClass //using extents keyword is to inh
 		//Thread.sleep(3000);// using thread.sleep to handle test failure due to network issue
 		
 		
-		//using is alertpresent() to check the alerts presented in the page or not 
+		//using is alert present() to check the alerts presented in the page or not 
 		if(isAlertPresent()==true)
 		{  
 			driver.switchTo().alert().accept();//its used to close alert
